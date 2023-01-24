@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+  .hero .container {
+    background: url(../images/bg-hero-desktop.svg) no-repeat center center
+      rgb(237, 255, 255);
+  }
+
+  .hero .container .header img {
+    width: 20rem;
+    padding-left: 1rem;
+  }
+
+  .hero .container .header a {
+    width: 18rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    padding-right: 1rem;
+  }
+
+  .hero .container .inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .hero .container .inf .info-hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .container .inf .info-hero h1 {
+    text-align: start;
+    font-size: 5rem;
+    width: 57rem;
+  }
+
+  .hero .container .inf .info-hero p {
+    text-align: start;
+    font-size: 1.8rem;
+    width: 57rem;
+  }
+
+  .hero .container .inf .info-hero .btn a {
+    width: 30rem;
+    height: 5rem;
+    font-size: 1.8rem;
+  }
+
+  .hero .container .inf img {
+    width: 50%;
+    text-align: start;
+  }
+}

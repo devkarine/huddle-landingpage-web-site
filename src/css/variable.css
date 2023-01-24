@@ -1,0 +1,9 @@
+*:root{
+
+    --button: hsl(322, 100%, 66%);
+    --light: hsl(193, 100%, 96%);
+    --footer: hsl(192, 100%, 9%);
+    --paragraph: hsl(208, 11%, 55%);
+    --font-size: 1.8rem;
+
+}
