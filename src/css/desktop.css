@@ -4,12 +4,12 @@
       rgb(237, 255, 255);
   }
 
-  .hero .container .header img {
+  nav img {
     width: 20rem;
     padding-left: 1rem;
   }
 
-  .hero .container .header a {
+  nav .btn-try {
     width: 18rem;
     height: 5rem;
     font-size: 1.8rem;
@@ -28,6 +28,7 @@
   }
 
   .hero .container .inf .info-hero h1 {
+    font-family: 'Poppins', sans-serif;
     text-align: start;
     font-size: 5rem;
     width: 57rem;
