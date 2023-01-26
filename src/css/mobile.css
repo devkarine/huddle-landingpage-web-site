@@ -67,6 +67,7 @@ nav .btn-try:hover {
   opacity: 0.5;
 }
 
+
 .hero .container .inf {
   display: flex;
   flex-direction: column;
@@ -155,3 +156,37 @@ nav .btn-try:hover {
   color: var(--paragraph)
 
 }
+
+.invitation .container{
+  background: linear-gradient(var(--light) 70%,
+  var(--footer) 30%);
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.invitation .container .invitation-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 90%;
+  height: 90%;
+  border-radius: 1rem;
+  gap: 1rem;
+
+  
+}
+
+
+footer .container{
+  background-color: var(--footer);
+  width: 100%;
+  
+}
+
