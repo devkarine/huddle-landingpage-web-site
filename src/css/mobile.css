@@ -182,11 +182,23 @@ nav .btn-try:hover {
 
   
 }
-
-
 footer .container{
   background-color: var(--footer);
   width: 100%;
-  
+  padding: 8rem 2rem;
+  color: white;
+}
+
+footer img {
+  width: 15rem;
+  filter: brightness(0) invert(100) sepia(0) saturate(0);
+}
+
+footer .footer-content {
+  bottom: 20rem;
+}
+
+.footer-content-header {
+  margin-bottom: 2rem;
 }
 
