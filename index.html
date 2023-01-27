@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/variable.css" />
     <link rel="stylesheet" href="src/css/mobile.css" />
@@ -130,12 +132,21 @@
                 </a>
               </div>
               <div class="footer-content-localization">
+                <div class="location-icon">
+                  <ion-icon name="location-sharp"></ion-icon>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
               </div>
               <div class="footer-content-phone">
+                <div class="phone-icon">
+                  <ion-icon name="call-sharp"></ion-icon>
+                </div>
                 <p>+1-543-123-4567</p>
               </div>
               <div class="footer-content-email">
+                <div class="mail-icon">
+                  <ion-icon name="mail-sharp"></ion-icon>
+                </div>
                 <p>example@huddle.com</p>
               </div>
               <div class="footer-content-menu">
@@ -148,17 +159,19 @@
                   <li class="footer-menu-item"><a href="#">Contact Us</a></li>
                 </ul>
                 <ul class="footer-social-links">
-                  <li class="footer-social-links-item"><a href="#">Facebook</a></li>
-                  <li class="footer-social-links-item"><a href="#">Twitter</a></li>
-                  <li class="footer-social-links-item"><a href="#">Instagram</a></li>
+                  <li class="footer-social-links-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                  <li class="footer-social-links-item"><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                  <li class="footer-social-links-item"><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
                 </ul>
-                <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+                <p class="copyright">&copy; Copyright 2018 Huddle. All rights reserved.</p>
               </div>
             </div>
+            <!--
             <p class="attribution">
               Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
               Coded by <a href="#">Karine Pereira</a> and <a href="#">Anderson Vieira</a>
             </p>
+            -->
           </div>
         </footer>
       </main>

@@ -202,3 +202,37 @@ footer .footer-content {
   margin-bottom: 2rem;
 }
 
+.footer-content-localization,
+.footer-content-phone,
+.footer-content-email
+ {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+ion-icon {
+  font-size: 3.2rem;
+
+}
