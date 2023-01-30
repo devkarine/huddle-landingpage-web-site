@@ -1,53 +1,88 @@
 @media (min-width: 1024px) {
-  .hero .container {
-    background: url(../images/bg-hero-desktop.svg) no-repeat center center
-      rgb(237, 255, 255);
-  }
-
-  nav img {
-    width: 20rem;
-    padding-left: 1rem;
-  }
-
-  nav .btn-try {
-    width: 18rem;
-    height: 5rem;
-    font-size: 1.8rem;
-    padding-right: 1rem;
+  .wrapper {
+    background: url(../images/bg-hero-desktop.svg) no-repeat rgb(237, 255, 255);
   }
 
   .hero .container .inf {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
   }
 
   .hero .container .inf .info-hero {
     display: flex;
     flex-direction: column;
+    width: 46rem;
+    padding-left: 5rem;
   }
 
   .hero .container .inf .info-hero h1 {
-    font-family: 'Poppins', sans-serif;
+    width: 25rem;
+    display: flex;
+    justify-content: flex-start;
     text-align: start;
-    font-size: 5rem;
-    width: 57rem;
   }
 
   .hero .container .inf .info-hero p {
+    width: 46rem;
     text-align: start;
-    font-size: 1.8rem;
-    width: 57rem;
   }
 
-  .hero .container .inf .info-hero .btn a {
-    width: 30rem;
-    height: 5rem;
-    font-size: 1.8rem;
+  .card {
+    display: flex;
+    flex-direction: row;
   }
 
-  .hero .container .inf img {
+  .card:nth-child(1) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card:nth-child(3) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .invitation .container .invitation-card {
     width: 50%;
-    text-align: start;
+    height: 90%;
+  }
+
+  .footer-content {
+    padding: 4rem;
+  }
+
+  .address {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-content-localization {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .location-icon {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .address .footer-content-localization p {
+    max-width: 35rem;
+  }
+
+  .footer-content-menu {
+    display: flex;
+    gap: 10rem;
+  }
+
+  .footer-social-links {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: flex-end;
   }
 }

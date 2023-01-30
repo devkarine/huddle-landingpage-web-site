@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.8;
@@ -13,7 +13,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -25,7 +25,6 @@ h2 {
   font-size: 1.8rem;
 }
 
-
 .container {
   width: 100%;
   height: auto;
@@ -33,8 +32,7 @@ h2 {
 }
 
 .wrapper {
-  background: url(../images/bg-hero-mobile.svg) no-repeat 
-    rgb(237, 255, 255);
+  background: url(../images/bg-hero-mobile.svg) no-repeat rgb(237, 255, 255);
 }
 
 nav {
@@ -67,7 +65,6 @@ nav .btn-try:hover {
   opacity: 0.5;
 }
 
-
 .hero .container .inf {
   display: flex;
   flex-direction: column;
@@ -88,7 +85,7 @@ nav .btn-try:hover {
 }
 
 .hero .container .inf h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.2rem;
   color: var(--footer);
   width: 25rem;
@@ -102,7 +99,7 @@ nav .btn-try:hover {
   width: 25rem;
   padding-block: 1.2rem;
   background-color: var(--button);
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   font-weight: 700;
   color: #ffffff;
   border-radius: 2.4rem;
@@ -114,7 +111,7 @@ nav .btn-try:hover {
 }
 
 .hero .container .inf img {
-  width: 80%;
+  width: 70%;
 }
 
 .hero-content-illustration {
@@ -153,36 +150,32 @@ nav .btn-try:hover {
 
 .card-content p {
   font-size: 1.4rem;
-  color: var(--paragraph)
-
+  color: var(--paragraph);
 }
 
-.invitation .container{
-  background: linear-gradient(var(--light) 70%,
-  var(--footer) 30%);
+.invitation .container {
+  background: linear-gradient(#ffffff 70%, var(--footer) 30%);
   width: 100%;
-  height: 18rem;
+  height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
-.invitation .container .invitation-card{
+.invitation .container .invitation-card {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: #ffffff;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(143, 142, 142);
   width: 90%;
-  height: 90%;
+  height: 80%;
   border-radius: 1rem;
   gap: 1rem;
-
-  
 }
-footer .container{
+footer .container {
   background-color: var(--footer);
   width: 100%;
   padding: 8rem 2rem;
@@ -202,15 +195,12 @@ footer .footer-content {
   margin-bottom: 2rem;
 }
 
-.footer-content-localization,
-.footer-content-phone,
-.footer-content-email
- {
+.footer-content-localization .footer-content-phone,
+.footer-content-email {
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
 }
-
 
 .footer-menu-list {
   display: flex;
@@ -234,5 +224,4 @@ footer .footer-content {
 
 ion-icon {
   font-size: 3.2rem;
-
 }
